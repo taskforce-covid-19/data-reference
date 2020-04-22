@@ -1,0 +1,56 @@
+---
+## Main icon
+icon: "/assets/images/logo-mid-white.svg"
+
+## Social Card [1200x630]
+social-card: /assets/images/favicons/social-card.png
+
+## Site name
+name:
+  en: "Covid-19 data reference"
+  it: "Risorse dati su Covid-19"
+
+## Site description
+description:
+  en: "A short description"
+  it: "Una raccolta delle iniziative ufficiali di mappatura dei dati sull’emergenza in corso."
+
+## Site author
+author:
+  en: ""
+  it: ""
+
+## Section news
+section-news:
+  en: "Latest news"
+  it: "Ultimi aggiornamenti"
+
+## Labels
+italian-version:
+  en: "Italian version"
+  it: "Versione italiana"
+english-version:
+  en: "English version"
+  it: "Versione inglese"
+cookie-policy:
+  info:
+    en: "This site uses technical, analytics and third-party cookies <br>By continuing to browse, you accept the use of cookies."
+    it: "Questo sito utilizza cookie tecnici, analytics e di terze parti.<br>Proseguendo nella navigazione accetti l’utilizzo dei cookie."
+  button:
+    en: "Ok"
+    it: "Accetto"
+
+footer-links:
+  en:
+    privacy-policy:
+      name: "Privacy policy"
+      url: "/en/privacy-policy"
+  it:
+    privacy-policy:
+      name: "Privacy policy"
+      url: "/it/privacy-policy"
+
+homepage:
+  main-headline:
+    en:
+    it: Un unico spazio per i dati sulla situazione italiana per l'emergenza Covid-19

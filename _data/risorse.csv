@@ -1,0 +1,136 @@
+Titolare,Tipo di risorsa,Titolo,Descrizione,Tema di riferimento,Copertura geografica,URL di accesso,URL di download,Formati,Frequenza di aggiornamento,Orario di aggiornamento,Licenza,Open Data,ID Titolare,,Check Download URL
+Presidenza del Consiglio dei Ministri - Dipartimento di Protezione Civile,Dataset,Andamento nazionale Covid-19 ,Dataset sull'andamento nazionale dell'evoluzione della pandemia COVID-19,Salute,"Regionale, Provinciale",https://github.com/pcm-dpc/COVID-19,"https://github.com/pcm-dpc/COVID-19/tree/master/dati-province
+https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni","CSV (province)
+CSV (regioni)",quotidiano,18:00,CC-BY 4.0,sì ,pcm-dpc,,ok -tenere
+Presidenza del Consiglio dei Ministri - Dipartimento di Protezione Civile,Dashboard ,Andamento nazionale Covid-19 ,Dashboard sul monitoraggio complessivo nazionale deil'evoluzione della pandemia da COVID-19,Salute,"Regionale, Provinciale",http://opendatadpc.maps.arcgis.com/apps/opsdashboard/index.html#/b0c68bce2cce478eaac82fe38d4138b1,,HTML,quotidiano,17:00,CC-BY 4.0,Sì perché dati sono nella riga sopra,pcm-dpc,,
+Presidenza del Consiglio dei Ministri - Dipartimento di Protezione Civile,Dashboard,Emergenza coronavirus: la mappa dei materiali distribuiti,"il sistema “Analisi Distribuzione Aiuti” (ADA), aggiornato in tempo reale e dedicato a dispositivi ed apparecchiature per il contrasto al Coronavirus, distribuiti ogni giorno dalla Protezione Civile alle Regioni e alle Province autonome per fronteggiare l’emergenza. Il sistema è stato realizzato dagli Uffici del Commissario straordinario per l’attuazione e il coordinamento delle misure di contenimento e contrasto dell’emergenza epidemiologica.",Governo e settore pubblico,Regionale,http://www.protezionecivile.gov.it/attivita-rischi/rischio-sanitario/emergenze/coronavirus/materiali-distribuiti-alle-regioni,,HTML,in continuo aggiornamento,---,CC-BY-NC-SA,no,pcm-dpc,,
+Consip,Dashboard ,Procedure e consegne ventilatori polmonari per terapia intensiva e sub-intensiva,"Mappa e tabelle sulle consegne di ventilatori polmonari per terapia intensiva e sub-intensiva, l'elenco di tutte le procedure effettuate, i report con i dati giornalieri sulle consegne di dispositivi ed apparecchiature, i comunicati stampa.  ",Governo e settore pubblico,Regionale,https://www.consip.it/covid-19-dati-del-giorno,,HTML,quotidiano,---,CC-BY 3.0,no,consip,,
+Istituto Superiore di Sanità - ISS,Dashboard,Sorveglianza Integrata COVID-19 in Italia,Dashboard e Report sulla sorveglianza integrata COVID-19 in Italia,Salute,"Regionale, Provinciale",https://www.epicentro.iss.it/,https://www.epicentro.iss.it/coronavirus/sars-cov-2-sorveglianza-dati,PDF,quotidiano,---,CC-BY-NC-ND 2.5,no,iss,,cambiato downlodURL
+Istituto Superiore di Sanità - ISS,Dashboard,Caratteristiche dei pazienti deceduti positivi a COVID-19 in Italia,Report sulle caratteristiche dei pazienti deceduti positivi a COVID-19 in Italia,Salute,Regionale,https://www.epicentro.iss.it/,https://www.epicentro.iss.it/coronavirus/sars-cov-2-decessi-italia#1,PDF,bisettimanale,---,CC-BY-NC-ND 2.5,no,iss,,cambiato downlodURL
+Istituto Superiore di Sanità - ISS,Dashboard ,Survey nazionale sul contagio COVID-19 nelle strutture residenziali e sociosanitarie,Secondo resoconto del contagio COVID-19 nelle strutture residenziali e sociosanitarie,Salute,Regionale,https://www.epicentro.iss.it/,https://www.epicentro.iss.it/coronavirus/sars-cov-2-survey-rsa,PDF,sconosciuto,9:00,CC-BY-NC-ND 2.5,no,iss,,cambiato downlodURL
+Istituto Nazionale di Fisica Nucleare - INFN,Dashboard ,Analisi statistica dei dati COVID-19,Dashboard fatta di mappe e tabelle messe a disposizione dell’Unità di Crisi Covid19 interna all’INFN per una analisi statistica dei dati forniti quotidianamente dalla Protezione Civile sulla diffusione della pandemia in Italia. ,Salute,"Regionale, Provinciale",https://covid19.infn.it/wp/,https://covid19.infn.it/mappa_nazionale/rootFiles/allFiles.tar.gz,TAR GZ,quotidiano,18:00,CC-BY 4.0,no,infn,,ok -tenere
+Presidenza del Consiglio dei Ministri - Dipartimento per le Politiche di Coesione,Dashboard,Data Card OpenCoesione dedicata a salute e innovazione,"Data Card su Salute e innovazione nelle politiche di coesione, progetti di telemedicina, fascicolo sanitario elettronico",Salute,Regionale,https://opencoesione.gov.it/it/pillole/salute-del-cittadino/,,HTML,sconosciuto,---,CC-BY-SA,I dati dovrebbero essere in Open Coesione e quindi Sì,,,
+Ministero dell'Interno,Dataset,Dati dei servizi di controllo,Monitoraggio sulle attività di polizia per il contenimento dell'emergenza epidemiologica,"Giustizia, sistema giuridico e sicurezza pubblica",Nazionale,https://www.interno.gov.it/it/coronavirus-i-dati-dei-servizi-controllo,,PDF,quotidiano,12:00,CC-BY 3.0,no,,,
+Agenzia Italiana del Farmaco (AIFA),Dataset,Farmaci utilizzabili per il trattamento della malattia COVID-19,"informazioni aggiornate sui farmaci utilizzati al di fuori delle sperimentazioni cliniche, come quelli commercializzati per altre indicazioni che vengono resi disponibili ai pazienti, pur in assenza di indicazione terapeutica specifica per il COVID-19, sulla base di evidenze scientifiche spesso piuttosto limitate.",Salute,Nazionale,https://www.aifa.gov.it/aggiornamento-sui-farmaci-utilizzabili-per-il-trattamento-della-malattia-covid19,,PDF,sconosciuto,---,Copyright,no,aifa,,
+Agenzia Italiana del Farmaco (AIFA),Dataset,Sperimentazioni cliniche - COVID-19,"Le sperimentazioni già autorizzate (data autorizzazione, nome dello studio e del farmaco in sperimentazione, promotore)",Salute,Nazionale,https://www.aifa.gov.it/sperimentazioni-cliniche-covid-19,,"ODS
+PDF",quotidiano,---,Copyright,no,aifa,,no - togliere download URL
+Agenzia Italiana del Farmaco (AIFA),Dataset,Programmi di uso compassionevole - COVID-19,Le informazioni aggiornate relative ai programmi di uso compassionevole per il trattamento della malattia COVID-19.,Salute,Nazionale,https://www.aifa.gov.it/programmi-di-uso-compassionevole-covid-19,,"ODS
+PDF",quotidiano,---,Copyright,no,aifa,,no - togliere download URL
+ISTAT,Dataset,Informazioni dall'ISTAT nell'emergenza sanitaria ,"Riferimento ISTAT su dataset e informazioni statistiche dell'ISTAT nell'emergenza sanitaria. Include dati sulla salute e sulla demografia, dati economici sulla congiuntura, statistica territoriale, ",Popolazione e società,"Regionale, Comunale",https://www.istat.it/it/archivio/239854,,"ZIP, CSV, XLSX",quotidiano,---,CC-BY 3.0,sì,istat,,
+RAI ,Dashboard,"Monitoraggio COVID-19 Italia, Europa, Mondo","Dashboard con il monitoraggio dell'evoluzione COVID-19 in Italia, Europa e nel mondo",Salute,Nazionale,http://www.rainews.it/ran24/speciali/2020/covid19/,,HMTL,sconosciuto,9:25,N/A,no,rai,,
+RAI - TGR Trento,Dashboard,Monitoraggio COVID-19 in Trentino,Dashboard con il monitoraggio dell'evoluzione COVID-19 in Trentino,Salute,"Regionale , Comunale",https://www.rainews.it/tgr/trento/articoli/2020/03/tnt-covid19-coronavirus-infografica-grafici-dai-58063a8e-73dd-48bf-9783-e4744c759256.html,,HTML,sconosciuto,----,N/A,no,rai,,
+AZIENDA SANITARIA PROVINCIALE COSENZA,Dashboard,Infografica dedicata alla situazione della diffusione dell’epidemia di COVID-19,"a)Infografica dedicata alla situazione della diffusione dell’epidemia di 
+COVID-19 distinta nelle provincie di Cosenza, Catanzaro, Reggio 
+Calabria, Vibo Valentia e Crotone.
+b) Infografica dei tamponi effettuati in Calabria.
+c) Infografica delle persone giunte in Calabria 
+negli ultimi quattordici giorni che si sono registrate al sito della  Regione Calabria.",Salute,"Regionale, Provinciale",http://www.asp.cosenza.it/?p=coronavirus,,HTML,quotidiano,17:00,N/A,no,,,
+Regione Basilicata,Dashboard ,Bollettino Epidemiologico,Bollettino Epidemiologico della Regione Basilicata sulla diffusione dell'epidemia COVID-19,Salute,"Regionale, Comunale",https://www.regione.basilicata.it/giunta/site/giunta/detail.jsp?otype=1012,,PDF,sconosciuto,12:00,CC-BY-NC,no,regione-basilicata,,
+Regione Campania,Dataset,COVID-19 Monitoraggio situazione: Totale casi per Provincia nella Regione Campania,"Sono riportati i dati relativi alla Regione Campania (suddivisi per Provincia), estratti dal riepilogo nazionale quotidiano del monitoraggio sanitario elaborato dal Dipartimento della Protezione Civile e reso disponibile sul sito http://www.protezionecivile.gov.it/ a seguito della comunicazione ufficiale tramite conferenza stampa alle ore 18.00 da parte del Capo del Dipartimento della protezione civile in qualità di Commissario straordinario. I dati descrivono il quadro riepilogativo della situazione relativo alla stato di evoluzione dell'infezione da Coronavirus (COVID-19) e contengono le informazioni relative al totale dei casi suddivisi per Provincia.",Salute,"Regionale, Provinciale, Comunale",https://dati.regione.campania.it/catalogo/datasetdetail/covid-19-monitoraggio-situazione-totale-casi-per-provincia-nella-regione-campania,,JSON,quotidiano,----,CC-BY 4.0,sì,regione-campania,,no - togliere download URL
+Regione Campania,Dataset,"
+COVID-19 Monitoraggio situazione: Dati di dettaglio relativi alla Regione Campania","Sono riportati i dati relativi alla Regione Campania, estratti dal riepilogo nazionale quotidiano del monitoraggio sanitario elaborato dal Dipartimento della Protezione Civile e reso disponibile sul sito http://www.protezionecivile.gov.it/ a seguito della comunicazione ufficiale tramite conferenza stampa alle ore 18.00 da parte del Capo del Dipartimento della protezione civile in qualità di Commissario straordinario. I dati descrivono il quadro riepilogativo della situazione relativo alla stato di evoluzione dell'infezione da Coronavirus (COVID-19) e contengono informazioni relative ai seguenti attributi: ricoverati con sintomi, terapia intensiva, totale ospedalizzati, isolamento domiciliare, totale attualmente positivi, nuovi attualmente positivi, dimessi guariti, deceduti, totale casi, tamponi.",Salute,Regionale,https://dati.regione.campania.it/catalogo/datasetdetail/covid-19-monitoraggio-situazione-totale-casi-per-provincia-nella-regione-campania,,JSON,quotidiano,----,CC-BY 4.0,sì,regione-campania,,no - togliere download URL
+Regione Friuli Venezia Giulia,Dashboard,Monitoraggio regionale COVID-19,Dashboard sul monitoraggio regionale COVID-19,Salute,"Regionale, Provinciale, Comunale",https://covid19map.protezionecivile.fvg.it//,,HTML,sconosciuto,Ogni comune ha il dato offerto a orari diversi,N/A,sì i dati sono nella riga sotto,regione-friuli-venezia-giulia,,
+Regione Friuli Venezia Giulia,Dataset,Monitoraggio regionale COVID-19,Dataset sul monitoraggio regionale COVID-19,Salute,Comunale,https://covid19map.protezionecivile.fvg.it//,https://covid19map.protezionecivile.fvg.it//data.csv,CSV,sconosciuto,Ogni comune ha il dato offerto a orari diversi,N/A,open data by default,regione-friuli-venezia-giulia,,ok -tenere
+Regione Lazio,Dashboard ,incidenza cumulativa di casi COVID-19,"Mappe sull'l’incidenza cumulativa di casi COVID-19 notificati al SERESMI (x 10,000 residenti); rappresenta le stime in valori crescenti secondo gradazione di colore. Le mappe consentono di identificare se in un’area geografica è presente un maggior o minor numero di casi in rapporto alla popolazione residente . ",Salute,"Comuni, Zona Urbanistica",https://www.dep.lazio.it/covid/covid_map.php?fbclid=IwAR22p9BO6maXuFg_i5LpzbCqpizBh2pKC-6GoPPEQiVi-9RLEWVKO_HQrs4,,HTML,quotidiano,18:00,N/A,no,regione-lazio,,
+Dipartimento di Epidemiologia del Servizio Sanitario Nazionale - Regione Lazio,Dashboard,Andamento della Mortalità Giornaliera (SiSMG) nelle città italianein relazione all’epidemia di Covid-19,Quarto rapporto sull'andamento della mortalità giornalisera (SISMG) nelle città italiane in relazione all'epidemia di Covid-19,Salute,19 Comuni,http://www.deplazio.net/it/vai-alla-pagina-delle-news/340-2020-03-31-09-24-41,http://www.deplazio.net/images/stories/SISMG/SISMG_COVID19.pdf,PDF,settimanale,----,N/A,no,regione-lazio,,ok -tenere
+Regione Lombardia,Dashboard ,Monitoraggio regionale COVID-19,Mappa di monitoraggio regionale e provinciale dell'evoluzione della pandemia da COVID-19,Salute,"Regionale, Provinciale",https://experience.arcgis.com/experience/0a5dfcc103d0468bbb6b14e713ec1e30/?fbclid=IwAR1Dx7SjyJf4TmbqbEGdRSn4SfvWeatAKUaeXCu1DJliJEEJeXBed2UfZw4,,HTML,quotidiano,20:30,N/A,no,regione-lombardia,,
+Regione Marche,Dataset,Monitoraggio regionale COVID-19 ,"Tre Dataset diversi che contengono:
+1. test, casi positivi, ricoverati in terapia intensiva, ricoveri in terapia non intensiva, ricoveri in area semi-intensiva, ricoveri in degenze post critiche e isolamento domiciliare
+2. i campioni positivi e complessivi
+3. il totale decessi, le patologie pregresse e i deceduti del giorno",Salute,"Regionale, Provinciale",http://www.regione.marche.it/Regione-Utile/Salute/Coronavirus#News,,PDF,quotidiano,12:00,Copyright,no,regione-marche,,no - togliere download URL
+Regione Molise,Dashboard,Monitoraggio regionale COVID-19,Dashboard con il monitoraggio giornaliero regionale sull'evoluzione della pandemia da COVID-19,Salute,"Regionale, Provinciale",http://www3.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/17206,,HTML,quotidiano,----,Copyright,no,regione-molise,,
+Regione Piemonte,Dashboard ,Contagi in Piemonte,Mappa dei contagi in Piemonte,Salute,Comunale,https://www.regione.piemonte.it/web/covid-19-mappa-dei-contagi-piemonte,,HTML,quotidiano,14:00,Copyright,no,regione-piemonte,,
+Provincia Autonoma di Trento  - Trentino Digitale - Azienda Provinciale per i servizi sanitari,Dashboard ,Monitoraggio regionale COVID-19,Dashboard sul monitoraggio complessivo regionale deil'evoluzione della pandemia da COVID-19,Salute,"Regionale, Provinciale, Comunale",https://patn.maps.arcgis.com/apps/opsdashboard/index.html#/30d39ef2c83a47d285512a4685235843,,HTML,quotidiano,18:00,N/A,sì i dati sono nella riga sotto,provincia-trento,,
+Provincia Autonoma di Trento - FBK,Dataset,Monitoraggio regionale COVID-19,Dataset stato clinico e situazione comuni trentini,Salute,"Regionale, Provinciale, Comunale",https://covid19trentino.fbk.eu/#download,"https://covid19trentino.fbk.eu/data/stato_clinico_td.csv
+https://covid19trentino.fbk.eu/data/stato_comuni_td.csv","CSV (stato clinico)
+CSV (stato comuni)",quotidiano,----,CC-BY 4.0,sì,provincia-trento,,ok -tenere
+Provincia Autonoma di Bolzano,Dashboard,Monitoraggio regionale COVID-19,Mappe e grafici sul monitoraggio regionale COVID-19,Salute,Comunale,http://www.provincia.bz.it/sicurezza-protezione-civile/protezione-civile/dati-attuali-sul-coronavirus.asp,,HTML,quotidiano,----,Copyright,no,provincia-bolzano,,
+Provincia Autonoma di Bolzano,Dataset,Persone positive e in quarantena,Dataset che contengono le persone positive al tampone e che si trovano in quarantena domiciliare,Salute,Comunale,http://www.provincia.bz.it/sicurezza-protezione-civile/protezione-civile/dati-attuali-sul-coronavirus.asp,"https://afbs.provinz.bz.it/upload/coronavirus/CoronavirusPositivi.xlsx
+https://afbs.provinz.bz.it/upload/coronavirus/CoronavirusQuarantaene.xlsx","XLSX (positivi)
+XSLS (quarantene)",quotidiano,----,Copyright,no,provincia-bolzano,,ok -tenere
+Regione Puglia,Dashboard ,Bollettino Epidemiologico,Bollettino Epidemiologico della Regione Puglia sulla diffusione dell'epidemia COVID-19,Salute,"Regionale, Provinciale",http://www.regione.puglia.it/coronavirus/,,PDF,quotidiano,16:30,Copyright,no,regione-puglia,,
+Regione Siciliana,Dashboard ,Monitoraggio regionale COVID-19,Mappa estratta dai dati della Protezione Civile sulla situazione regionale dell'andamento della pandemia da COVID-19,Salute,Provinciale,https://drpcsicilia.maps.arcgis.com/apps/opsdashboard/index.html#/f3bc1f2e6f9a43c6accf859bb3a1e72e,,HTML,quotidiano,17:00,N/A,no,regione-sicilia,,
+Regione Toscana,Dashboard ,Andamento regionale diffusione COVID-19,"Dashboard che mostra l'andamento dei casi attualmente positivi, deceduti, dimessi e guariti cumulativi in Toscana",Salute,"Comunale, ASL",https://www.ars.toscana.it/covid19/aggiornamenti-e-novita-sul-numero-dei-casi-per-provincia-e-per-asl-della-regione-toscana,,HTML,quotidiano,----,Copyright,no,regione-toscana,,
+Regione Toscana,Dashboard ,Covid-19: casi Toscana-Italia,"Report che include una tabella sintetica con i principali numeri toscani – casi totali e attualmente positivi, dimessi/guariti totali, numero di morti totali – diversi focus grafici di confronto fra i dati toscani e italiani,",Salute,"Regionale, Provinciale",https://datastudio.google.com/u/0/reporting/925fa182-c0de-4879-8bb2-195d99d5aead/page/tMqIB,,HTML,quotidiano,13:57,Copyright,no,regione-toscana,,
+Regione Toscana,Dataset,Open Data Covid19,Il dataset contiene: i numeri totali dell’ultimo aggiornamento giornaliero disponibile e la variazione percentuale rispetto alla giornata precedente.,Salute,"Provinciale, AUSL (quando possibile)",http://dati.toscana.it/dataset/open-data-covid19,http://dati.toscana.it/dataset/843000c5-8d28-4426-bed3-54703399be06/resource/c472c0cb-4105-43b9-ae38-d66b88dc0107/download/covidars.csv,CSV,quotidiano,20:00,CC-BY 4.0,sì,regione-toscana,,ok -tenere
+Regione Umbria,Dataset ,Monitoraggio regionale COVID-19,,Salute,"Regionale, Provinciale, Comunale",https://apistore.regione.umbria.it/store/apis/info?name=COVID-19&version=1.0.0&provider=admin&tag=Agenda%20digitale-group#tab1,,JSON,quotidiano,14:51,CC-BY 4.0,sì,regione-umbria,,
+Regione Umbria,Dashboard,Monitoraggio regionale COVID-19,"Le info messe a disposizione: geografia, giorno, data, totale casi positivi, andamento dei casi positivi x1000 abitanti, deceduti, incremento deceduti rispetto alla giornata precedente x100, letalità, totale dei ricoveri, incremento ricoveri rispetto alla giornata precedente x100, attualmente positivi, dimessi, tamponi effettuati, incremento tamponi rispetto alla giornata precedente x100 suddivisi per provincia, AUSL (quando possibile). I dati saranno aggiornati entro le ore 20 di ogni giorno.",Salute,"Regionale, Provinciale, Comunale",https://coronavirus.regione.umbria.it/,,HTML,quotidiano,10:45,CC-BY 4.0,sì i dati sono nella riga sotto,regione-umbria,,
+Regione Umbria,Dataset,Emergenza COVID-19 - La distribuizione di DPI,"
+ Il dataset riporta Il numero totale dei Dispositivi di 
+Protezione Individuale (DPI) distribuiti dalla Protezione Civile da 
+inizio emergenza per le varie date di rilevamento.
+
+La protezione civile dell' Umbria si è mobilitata al fine di far 
+fronte alle esigenze straordinarie ed urgenti interventi derivanti dalla
+ diffusione del COVID-19 anche per la distribuzione di DPI e dispositivi
+ sanitari a  Ospedali, USL 1 e 2, Comuni , Prefettura-forze dell'ordine,
+ Regione Umbria, volontari PC e sanitari, parasanitarie, aziende 
+private.
+
+        ",Salute,"Comuni , Singole Strutture",http://dati.umbria.it/dataset/emergenza-covid-distribuzione-dpi,"http://dati.umbria.it/dataset/emergenza-covid-distribuzione-dpi/resource/04f73534-f32a-4dc0-b86c-dc4addcf7771
+http://dati.umbria.it/dataset/emergenza-covid-distribuzione-dpi/resource/81e8678f-6ac1-4cc4-8960-1bda79aef3ab","CSV
+JSON",settimanale,---,CC-BY 3.0,sì,regione-umbria,,ok - tenere  
+Regione Umbria,Dataset,Emergenza COVID-19 - Volontari e associazioni,"Il dataset riporta le attività e la consistenza numerica delle presenze dei volontari nelle associazioni durante l'emergenza.
+Il volontariato di protezione civile dell' Umbria si è mobilitato al 
+fine di far fronte alle esigenze straordinarie ed urgenti interventi 
+derivanti dalla diffusione del COVID-19. Sin dai primi giorni le associazioni di volontariato
+ hanno operato nel garantire l'assistenza alla popolazione, dare 
+supporto ai Sindaci dei Comuni e al personale sanitario,con le prime 
+attività di assistenza presso l'aeroporto  San Francesco di Assisi di 
+Perugia.
+Successivamente si sono resi disponibili per le attività di 
+pre-triage presso i pronto soccorso di 11 ospedali regionali e per il 
+ripristino di container allestiti a supporto dei presidi ospedalieri.
+Insieme a medici, infermieri e personale sanitario  sono presenti in 
+numero crescente di volontari di protezione civile in prima linea che 
+ogni giorno danno supporto alle amministrazioni comunali per il 
+montaggio tende, assistenza alle persone ""fragili"" note ai servizi 
+sociali e comunali, ai soggetti in quarantena ma non positivi da 
+Covid-19 e supporto ai casi confermati da CoVID-19 in isolamento 
+domiciliare.
+
+        ",Governo e settore pubblico,Regionale (singola associazione),http://dati.umbria.it/dataset/emergenza-covid-19-i-volontari,,"CSV, JSON",settimanale,---,CC-BY 3.0,sì,regione-umbria,,no - togliere download URL
+Regione Umbria,Dataset,Emergenza COVID-19 - Installazione di strutture per triage campali,"Il dataset riporta la localizzazione delle strutture 
+allestite dalla Protezione Civile  per effettuare i triage campali in 
+occasione dell'emergenza COVID-19 e le dotazioni in uso.
+Si tratta di strutture provvisorie per il soccorso e l'assistenza 
+sanitaria dotate di autonomia logistica e complete di personale 
+sanitario e tecnico di supporto
+Vengono installate per:
+Fare da filtro alle strutture ospedaliere durante i soccorsi
+Prestare assistenza dove altrimenti non sarebbe disponibile
+
+
+ 
+        ",Salute,Singola struttura,http://dati.umbria.it/dataset/emergenza-covid-19-triage,,"CSV, JSON",in continuo aggiornamento,---,CC-BY 3.0,sì,regione-umbria,,no - togliere download URL
+Regione Umbria,Dataset,Emergenza COVID-19 - Volontari e Centri Operativi Comunali,"Il dataset riporta Il totale dei COC (Centri Operativi Comunali) attivi ogni giorno e dei volontari che vi operano.
+Il volontariato di protezione civile dell' Umbria si è mobilitato al 
+fine di far fronte alle esigenze straordinarie ed urgenti interventi 
+derivanti dalla diffusione del COVID-19.
+Il coordinamento delle componenti del Servizio nazionale della 
+Protezione civile, avviene, ai vari livelli territoriali e funzionali, 
+attraverso il cosiddetto ‘Metodo Augustus’, che permette ai 
+rappresentanti di ogni ‘funzione operativa’ (Sanità, Volontariato, 
+Telecomunicazioni, …) di interagire direttamente tra loro ai diversi 
+‘tavoli decisionali’ e nelle sale operative dei vari livelli come il 
+Centro Coordinamento dei Soccorsi (CCS), il Centro Operativo Comunale 
+(COC) ed il Centro Operativo Misto (COM), avviando così in tempo reale 
+processi decisionali collaborativi
+Dal nome dell'Imperatore Augusto, che fu il primo ad instituire i 
+‘tavoli consultivi’ tra i suoi collaboratori, il metodo ha già 
+dimostrato la sua ottima funzionalità in occasione delle più recenti 
+calamità che hanno colpito il nostro Paese. Augusto sosteneva inoltre 
+che: «Il valore della pianificazione diminuisce con l'aumentare della 
+complessità degli eventi». Proprio per questo si distingue per la sua 
+semplicità e flessibilità.
+Il CCS (Centro Coordinamento dei Soccorsi), è l'organo principale a 
+livello provinciale ed è presieduto dal prefetto o suo delegato); per COC si intende il Centro Operativo Comunale, responsabile delle attività a livello comunale-locale, il cui massimo punto di riferimento è
+ il sindaco o suo delegato (Codice della Protezione Civile, D.lgs 
+1/2018).",Governo e settore pubblico,Regionale,http://dati.umbria.it/dataset/emergenza-covid-19-sintesi-volontari-coc,,"CSV, JSON",in continuo aggiornamento,---,CC-BY 3.0,sì,regione-umbria,,
+Regione Valle d'Aosta,Dashboard,Situazione COVID-19,Allertazioni protezione civile situazione COVID-19,Salute,Comunale,https://www.regione.vda.it/protezione_civile/allertamenti/default_i.aspx,,HTML,quotidiano,16:00,Copyright,no,regione-valle-d-aosta,,
+Regione Veneto,Dashboard,SARS-CoV-2 in Veneto,Infografica sulla situazione regionale in merito alla diffusione del virus SARS-CoV-2,Salute,"Regionale, Provinciale",https://infogram.com/1pw2dx7wm0kmyzfvnezrz1eq39h9ypw7x3g,,HTML,quotidiano,8:00,CC-BY 4.0,no,regione-veneto,,
+Regione Veneto,Dashboard,Ricoverati Covid-19,Infografica sulla situazione dei ricoverati Covid-19 in regione Veneto,Salute,Regionale,https://infogram.com/1pmrwe3vmewkrpf379lk2ldx97izlgyeqm9,,HTML,quotidiano,8:00,CC-BY 4.0,no,regione-veneto,,
+Città metropolitana di Bologna,Dashboard,Dati sui casi positivi e deceduti e guariti,Dashboard che mostra i casi positivi e i deceduti e guariti per le due ASLBologna e Imola,Salute,"Comunale, Distretti ASL, Quartieri",http://inumeridibolognametropolitana.it/studi-e-ricerche/covid19-dati-dei-territori-dellausl-di-bologna-e-dellausl-di-imola,,HTML,quotidiano,12:00,N/A,open data by default,citta-bologna,,
+Università degli studi di Palermo - Dipartimento Scienze Economiche Aziendali e Statistiche,Dashboard,Monitoraggio COVID-19,Dashboard per tracciare l’andamento dell'epidemia di COVID-19 per Sicilia Sardegna Puglia Lombardia Sud d'Itlaia e Italia,Salute,"Nazionale, Regionale",https://sites.google.com/community.unipa.it/covid-19/monitoraggio,,HTML,sconosciuto,17:00,N/A,no,,,
+Università del Salento,Dashboard,Monitoraggio COVID-19 nella provincia di Lecce,"La dashboard mostra lo stato dei contagi a livello locale (per singolo comune) e provinciale, e le previsioni per i giorni a seguire in relazione al numero di nuovi contagi, sulla base di modelli statistici opportunamente adattati ai dati da analizzare",Salute,"Provinciale, Comunale",https://www.unisalento.it/monitoraggio-covid19,,HTML,quotidiano,----,Copyright,no,,,
+L'Istituto Poligrafico e Zecca dello Stato  - Gazzetta Ufficiale della Repubblica Italiana,Atti normativi,Raccolta degli atti recanti misure urgenti in materia di contenimento e gestione dell'emergenza epidemiologica da COVID-19,"Elenco di alcuni degli atti recanti misure urgenti in materia di contenimento e gestione dell'emergenza COVID-19. Gli atti sono suddivisi per diversi Ministeri, per Presidenza del Consiglio e per Dipartimento di Protezione Civile","Giustizia, sistema giuridico e sicurezza pubblica",Nazionale,https://www.gazzettaufficiale.it/dettaglioArea/12,,HTML,sconosciuto,----,Attribuzione,sì,repubblica-italiana,,

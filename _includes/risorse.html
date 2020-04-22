@@ -1,0 +1,29 @@
+{% assign risorse = site.data.risorse %}
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col col-xl-11 py-5 px-3 px-md-0">
+      {% include filtri.html risorse = risorse %}
+    </div>
+  </div>
+  <div class="row mb-5">
+    {% comment %}
+    <div class="col-12 col-md-4 order-md-2">
+      <h6 class="text-uppercase max-w-40 mx-2 my-3">{{ site.data.t.section-news[page.lang] }}</h6>
+      {% assign localized_posts = site.posts | where: "lang", page.lang %}
+      {% for post in localized_posts %}
+        {% include post-teaser.html %}
+      {% endfor %}
+    </div>
+    {% endcomment %}
+    <div class="col-12 col-md-8 offset-md-2 order-md-1">
+      <div class="row">
+        {%- for risorsa in risorse -%}
+        {% include risorsa.html risorsa = risorsa %}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+

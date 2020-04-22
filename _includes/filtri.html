@@ -1,0 +1,67 @@
+<div class="filters d-flex flex-column flex-lg-row">
+  <div class="py-2 small text-primary pr-3 d-inline">Filtra le risorse per tipologia:</div>
+  <div class="filter-buttons">
+    <button type="button" data-tipo="" class="btn btn-primary btn-sm js-btn-filter text-uppercase py-2 m-1">
+      Tutte le risorse
+    </button>
+    {% assign tipiArray = '' | split: ',' %}
+    {%- for risorsa in risorse -%}
+    {% assign tipo = risorsa["Tipo di risorsa"] | strip %}
+    {% assign tipiArray = tipiArray | push: tipo %}
+    {%- endfor -%}
+    {% assign uniqTipiArray = tipiArray | uniq %}
+    {%- for uniqTipo in uniqTipiArray | uniq -%}
+    <button type="button" data-tipo="{{ uniqTipo | strip | slugify }}" class="btn btn-sm btn-outline-primary js-btn-filter text-uppercase btn-icon py-2 m-1">
+      <span>{{ uniqTipo }}</span>
+    </button>
+    {%- endfor -%}
+  </div>
+  <div class="py-2 small text-primary pl-3 d-block d-md-inline">
+    oppure
+    <a href="#" class="link text-uppercase font-weight-semibold px-3" data-toggle="modal" data-target="#modale-filtri">
+      filtra per ente
+    </a>
+  </div>
+</div>
+
+<div class="modal it-dialog-scrollable" tabindex="-1" role="dialog" id="modale-filtri">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Seleziona l'ente di cui visualizzare i dati, quindi conferma la tua selezione in fondo alla pagina.</h5>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <svg class="icon">
+            <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="topic-filters">
+          <div class="form-check form-check-group">
+            <input name="topic-filters" id="topic-filter-tutti" type="radio" class="js-radio-filter"  value="">
+            <label for="topic-filter-tutti">
+              Tutti gli enti
+            </label>
+          </div>
+          {% assign titolariArray = '' | split: ',' %}
+          {% for risorsa in risorse -%}
+          {% assign titolare = risorsa["Titolare"] | strip %}
+          {% assign titolariArray = titolariArray | push: titolare %}
+          {%- endfor -%}
+          {% assign uniqTitolariArray = titolariArray | uniq %}
+          {%- for uniqTitolare in uniqTitolariArray | uniq -%}
+          <div class="form-check form-check-group">
+            <input name="topic-filters" id="topic-filter-{{ uniqTitolare | slugify }}" type="radio" class="js-radio-filter"  value="{{ uniqTitolare | slugify }}">
+            <label for="topic-filter-{{ uniqTitolare | slugify }}">
+              {{ uniqTitolare }}
+            </label>
+          </div>
+          {% endfor %}
+        </form>
+      </div>
+      <div class="modal-footer text-center">
+        <button class="btn btn-primary btn-sm" type="button" data-dismiss="modal">conferma</button>
+      </div>
+    </div>
+  </div>
+</div>

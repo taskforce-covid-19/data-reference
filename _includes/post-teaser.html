@@ -1,0 +1,16 @@
+<div class="card card-teaser align-self-stretch bg-transparent">
+  <div class="card-body">
+    <div class="category-top">
+      <svg class="icon">
+        <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-calendar"></use>
+      </svg>
+      <span class="data">{% include date.html date=post.date %}</span>
+    </div>
+    <h5 class="card-title mb-2"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+    <div class="card-text">
+      <div class="my-2">
+        {{ post.excerpt }}
+      </div>
+    </div>
+  </div>
+</div>

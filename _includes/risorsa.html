@@ -1,0 +1,109 @@
+{% assign id-titolare = risorsa["ID Titolare"] | strip %}
+{% assign titolare = risorsa["Titolare"] | strip %}
+{% assign titolo = risorsa["Titolo"] | strip %}
+{% assign descrizione = risorsa["Descrizione"] | strip %}
+{% assign link-accesso = risorsa["URL di accesso"] | strip %}
+{% assign link-download = risorsa["URL di download"] | strip %}
+
+{% assign tipo = risorsa["Tipo di risorsa"] | strip %}
+
+{% assign frequenza = risorsa["Frequenza di aggiornamento"] | strip %}
+{% assign orario = risorsa["Orario di aggiornamento"] | strip %}
+{% assign copertura = risorsa["Copertura geografica"] | strip %}
+{% assign licenza = risorsa["Licenza"] | strip %}
+{% assign open = "sì" | strip %}
+{% assign formats = risorsa["Formati"] | strip %}
+
+{%- capture tipo_label -%}
+{%- if tipo == "Dashboard" -%}Vai alla Dashboard
+{%- elsif tipo == "Dataset" -%}Vai al Dataset
+{%- else -%}Vai alla risorsa
+{%- endif -%}
+{%- endcapture -%}
+
+{% assign scarica_label = "Scarica" %}
+
+<div class="col-12">
+  <div class="card-wrapper card-space card-risorsa" data-tipo="{{ tipo | slugify }}" data-titolare="{{ titolare | slugify }}">
+    <div class="card card-image my-2 no-after shadow rounded">
+      <div class="overlay-panel overlay-panel-fullheight overlay-panel-fullheight_risorsa rounded">
+        <div class="row">
+          <div class="col-12 text-right">
+            <a class="btn-no-viz js-close-details" href="#">
+              <span class="sr-only">Chiudi</span>
+              <svg class="icon icon-white">
+                <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-close"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="col-12 small">
+            <table class="table table-dark table-sm">
+              <tbody>
+                <tr>
+                  <th class="text-right font-weight-bold">Frequenza di aggiornamento dati</th>
+                  <td class="text-left">{{frequenza}}</td>
+                </tr>
+                <tr>
+                  <th class="text-right font-weight-bold">Orario di aggiornamento dati</th>
+                  <td class="text-left">{%- if orario != '' -%}{{orario}}{%- else -%}non disponibile{%- endif- %}</td>
+                </tr>
+                <tr>
+                  <th class="text-right font-weight-bold">Copertura geografica</th>
+                  <td class="text-left">{{copertura}}</td>
+                </tr>
+                <tr>
+                  <th class="text-right font-weight-bold">Licenza</th>
+                  <td class="text-left">{{licenza}}</td>
+                </tr>
+                <tr>
+                  <th class="text-right font-weight-bold border-0">Open data</th>
+                  <td class="text-left border-0">{{open}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-10">
+            <div class="card-logo">
+              {%- if id-titolare != '' -%}
+              <img src="{{ site.baseurl }}/assets/images/stemmi/{{ id-titolare }}.png" alt="Stemma {{ titolare }}" class="card-logo-img mx-3">
+              {%- endif -%}
+              <p class="card-titolare text-serif align-self-center mb-0 x-small">{{ titolare }}</p>
+            </div>
+          </div>
+          <div class="col-2 text-right">
+            <a class="btn-no-viz js-open-details" href="#">
+              <span class="sr-only">Vedi dettagli</span>
+              <svg class="icon">
+                <use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-more-actions"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h2 class="card-title text-primary mt-4 mb-2">{{ titolo }}</h2>
+          <p class="card-descrizione small">{{ descrizione }}</p>
+          <div class="card-links text-right">
+            <a href="{{link-accesso}}" target="_blank" rel="noopener noreferrer">
+              {{ tipo_label }}
+              <svg class="icon icon-primary align-top mx-2"><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-external-link"></use></svg>
+            </a>
+            {% if link-download != '' %}
+            {% assign links = link-download | newline_to_br | split: '<br />' %}
+            {% assign formats = formats | newline_to_br | split: '<br />' %}
+            {% for link in links %}
+              <a href="{{ links[forloop.index0] }}" class="d-block">
+                {{ scarica_label }} {{ formats[forloop.index0] }}
+                <svg class="icon icon-primary align-top mx-2"><use xlink:href="{{ site.baseurl }}/assets/bootstrap-italia/dist/svg/sprite.svg#it-download"></use></svg>
+              </a>
+            {% endfor %}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

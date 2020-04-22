@@ -1,0 +1,21 @@
+---
+---
+
+@import 'assets/styles/variables';
+@import 'assets/styles/fonts';
+@import 'assets/styles/hero';
+@import 'assets/styles/card';
+@import 'assets/styles/filters';
+@import 'assets/styles/modal';
+
+body {
+  background-color: $color-muted;
+}
+
+.text-primary {
+  color: $color-primary !important;
+}
+
+.table-dark {
+  background-color: transparent !important;
+}
