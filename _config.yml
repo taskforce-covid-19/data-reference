@@ -9,21 +9,18 @@ environment: "production"
 
 # Prevent site from being indexed by search engines
 # Leave empty to publish the website
-noindex: true
-# todo rimuovere
+noindex:
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-000000000-0) to activate tracking
-google_analytics:
-# todo aggiungere UA-153507582-2
+google_analytics: UA-153507582-2
 
 # Your website URL (e.g. http://example.github.io or http://www.example.com)
 # Used for Sitemap.xml and your RSS feed
-url: ""
-# todo mettere URL finale
+url: "https://dati-covid.italia.it"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
