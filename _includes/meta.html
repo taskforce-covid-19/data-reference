@@ -16,7 +16,7 @@
 {%- if page.image -%}
 {{ site.url | append: page.image }}
 {%- else -%}
-{{ site.url | append: site.data.meta.social-card }}
+{{ site.url | append: site.data.t.social-card }}
 {%- endif -%}
 {%- endcapture -%}
 
