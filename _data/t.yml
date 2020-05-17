@@ -41,14 +41,14 @@ cookie-policy:
     it: "Accetto"
 
 footer-links:
-  en:
-    privacy-policy:
-      name: "Privacy policy"
-      url: "/en/privacy-policy"
-  it:
-    privacy-policy:
-      name: "Privacy policy"
-      url: "/it/privacy-policy"
+#  en:
+#    privacy-policy:
+#      name: "Privacy policy"
+#      url: "/en/privacy-policy"
+#  it:
+#    privacy-policy:
+#      name: "Privacy policy"
+#      url: "/it/privacy-policy"
 
 homepage:
   main-headline:

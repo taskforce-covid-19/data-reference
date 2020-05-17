@@ -16,7 +16,7 @@ noindex:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-000000000-0) to activate tracking
-google_analytics: UA-153507582-2
+#google_analytics: UA-153507582-2
 
 # Your website URL (e.g. http://example.github.io or http://www.example.com)
 # Used for Sitemap.xml and your RSS feed
